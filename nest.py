@@ -106,15 +106,9 @@ class Nest:
     def away_out(self):
         tempStructure = self.status["structure"][self.structure_id]["away"]
         self.print_value("away", tempStructure, 1, 1)
-        #sys.stdout.write("away:\"")
-        #sys.stdout.write(str(tempStructure))
-        #sys.stdout.write("\"")
         
     def mode_out(self):
         self.print_value("mode", self.status["shared"][self.serial]["current_schedule_mode"], 1, 0)
-        #sys.stdout.write("mode:\"")
-        #sys.stdout.write()
-        #sys.stdout.write("\"")
         
     def fan_out(self):
         self.print_value("fan_mode", self.status["shared"][self.serial]["fan_mode"], 1, 0)
