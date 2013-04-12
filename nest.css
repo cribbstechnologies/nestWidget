@@ -1,0 +1,71 @@
+#nestWidget {
+    width: 270px;
+    height: 248px;
+    font-family: Verdana, sans-serif;
+}
+#currentSettings {
+    position: absolute;
+    top: 108px;
+    left: 104px;
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.heat {
+    color: white;
+    font-size: 20ps;
+    width: 40px;    
+    height: 21px;
+    
+    /* Safari 4-5, Chrome 1-9 */ 
+    /* Can't specify a percentage size? Laaaaaame. */ 
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#e54c25), to(#2F2727)); 
+    /* Safari 5.1+, Chrome 10+ */ 
+    background: -webkit-radial-gradient(circle, #e54c25, #2F2727); 
+    /* Firefox 3.6+ */ 
+    background: -moz-radial-gradient(circle, #e54c25, #2F2727); 
+    /* IE 10 */ 
+    background: -ms-radial-gradient(circle, #e54c25, #2F2727);
+}
+
+.cool {
+    color: white;
+    font-size: 20ps;
+    width: 40px;
+    height: 21px;
+    
+    /* Safari 4-5, Chrome 1-9 */ 
+    /* Can't specify a percentage size? Laaaaaame. */ 
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#364fe2), to(#2F2727)); 
+    /* Safari 5.1+, Chrome 10+ */ 
+    background: -webkit-radial-gradient(circle, #364fe2, #2F2727); 
+    /* Firefox 3.6+ */ 
+    background: -moz-radial-gradient(circle, #364fe2, #2F2727); 
+    /* IE 10 */ 
+    background: -ms-radial-gradient(circle, #364fe2, #2F2727);
+}
+
+#awayStatus {
+    position: absolute;
+    top: 157px;
+    left: 125px;
+}
+
+#currentStatus {
+    position: absolute;
+    top: 81px;
+    left: 124px;
+}
+
+#gradientTest {
+    /* Safari 4-5, Chrome 1-9 */ 
+    /* Can't specify a percentage size? Laaaaaame. */ 
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#364fe2), to(#2F2727)); 
+    /* Safari 5.1+, Chrome 10+ */ 
+    background: -webkit-radial-gradient(circle, #364fe2, #2F2727); 
+    /* Firefox 3.6+ */ 
+    background: -moz-radial-gradient(circle, #364fe2, #2F2727); 
+    /* IE 10 */ 
+    background: -ms-radial-gradient(circle, #364fe2, #2F2727);
+}

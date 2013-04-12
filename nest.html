@@ -1,0 +1,16 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="nest.css"></link>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery_nest.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.nest($('#nestWidget'));
+            window.setInterval(function(){$.nest($('#nestWidget'));}, 10000);
+        });
+    </script>
+    </head>
+    <body>
+    <div id="nestWidget"></div>
+    </body>
+</html>
